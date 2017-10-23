@@ -67,7 +67,7 @@ class StudentsListViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    /*override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         student = students[indexPath.row]
         performSegue(withIdentifier: "detailsSegue", sender: self)
     }
@@ -76,7 +76,7 @@ class StudentsListViewController: UITableViewController {
         let destination = segue.destination as! DetailsViewController
         destination.student = student
         print("Student details sent through segue...")
-    }
+    }*/
  
 
     /*
