@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0431AD871F9B626200C95AFE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431AD861F9B626200C95AFE /* DetailsViewController.swift */; };
 		04C8B0841F9A0C09003CF74C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8B0831F9A0C09003CF74C /* AppDelegate.swift */; };
 		04C8B0861F9A0C09003CF74C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8B0851F9A0C09003CF74C /* ViewController.swift */; };
 		04C8B0891F9A0C09003CF74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C8B0871F9A0C09003CF74C /* Main.storyboard */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0431AD861F9B626200C95AFE /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		04C8B0801F9A0C09003CF74C /* UniversityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C8B0831F9A0C09003CF74C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C8B0851F9A0C09003CF74C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				04E78FED1F9A470300BF528C /* MyTableViewCell.swift */,
 				04E78FEF1F9A47BA00BF528C /* StudentsListViewController.swift */,
 				04EBF3661F9B5BE500F04D10 /* ResultListViewController.swift */,
-				0431AD861F9B626200C95AFE /* DetailsViewController.swift */,
 			);
 			path = UniversityApp;
 			sourceTree = "<group>";
@@ -159,7 +156,6 @@
 			files = (
 				04C8B09A1F9A1694003CF74C /* AddViewController.swift in Sources */,
 				04E78FF01F9A47BA00BF528C /* StudentsListViewController.swift in Sources */,
-				0431AD871F9B626200C95AFE /* DetailsViewController.swift in Sources */,
 				04C8B0861F9A0C09003CF74C /* ViewController.swift in Sources */,
 				04EBF3671F9B5BE500F04D10 /* ResultListViewController.swift in Sources */,
 				04C8B0981F9A11AD003CF74C /* University.swift in Sources */,
