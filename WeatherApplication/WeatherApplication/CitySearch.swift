@@ -14,8 +14,7 @@ public var cityData = Array<Dictionary<String,Any>>()
 
 class CitySearch {
     private let cityBaseURL = "http://dataservice.accuweather.com/locations/v1/cities/autocomplete?q="
-    private let weatherAPIKey = "AoIwXiwGAjJ8AJ7wVi09Xw1XSqwMDBJg" /* GIsKNAwNInDPKLpzqUi5BgmM5eEtdgjC */
-    /*"2Ls8uKCVGi884TtNU1qvtTopmAgNXI9N"*/ /*"QXwbG2PbNGFlNaMlh2yDsuuGtL3aV5We"*/  /*"zCxylLYl90od2lBKwgI4YXLlz39xKmo6"*/
+    private let weatherAPIKey = "###" //enter your API key here
     
     func getCityResultsFromAPI(searchString: String) {
         let cityFullURL = cityBaseURL + searchString.replacingOccurrences(of: " ", with: "%20") + "&apikey=" + weatherAPIKey

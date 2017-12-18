@@ -187,9 +187,9 @@ class ViewController: UIViewController,UICollectionViewDataSource,UITableViewDat
     
     func fetchData() {
         
-        // let url = URL(string :"http ://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=d4fe00827e9855d0d0e2442f3dd09be3")
+        // let url = URL(string :"http ://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=###") //enter your own API key
         
-        //let url = URL(string :"http://api.openweathermap.org/data/2.5/forecast?q=" + cityTextField.text!.replacingOccurrences(of: " ", with: "%20") + ",uk&appid=08e64df2d3f3bc0822de1f0fc22fcb2d")
+        //let url = URL(string :"http://api.openweathermap.org/data/2.5/forecast?q=" + cityTextField.text!.replacingOccurrences(of: " ", with: "%20") + ",uk&appid=###") //enter your own API key
         
         let url = URL(string :"http://api.openweathermap.org/data/2.5/forecast?q=" + selectedCity.replacingOccurrences(of: " ", with: "%20") + ",uk&appid=08e64df2d3f3bc0822de1f0fc22fcb2d")
         
